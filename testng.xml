@@ -1,12 +1,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="methods" thread-count="2"   name="LoginAutomation_1">
+<suite name="LoginAutomation_1">
 <test name="login_1">
 <groups>
 <run>
 </run>
 </groups>
 <classes>
-<class name="test.sampleTest"/>
+<class name="test.LoginTest"/>
 </classes>
 </test>
 </suite>
