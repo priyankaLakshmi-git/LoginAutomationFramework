@@ -20,7 +20,9 @@ public CheckOutTest(WebDriver driver1)
 
 public void checkout_products() throws InterruptedException
 {
-    driver.findElement(By.xpath("//a[@data-test='shopping-cart-link']")).click();
+    System.out.println("this is  in checkout page");
+	driver.findElement(By.xpath("//a[@data-test='shopping-cart-link']")).click();
+	
 	Assert.assertTrue(driver.getCurrentUrl().equalsIgnoreCase("https://www.saucedemo.com/cart.html"));
     
 	{
